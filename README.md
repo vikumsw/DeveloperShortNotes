@@ -34,3 +34,33 @@ Links :
 ---
 * br file.cpp:914 if strcmp(table_name,"asdasdasd")==0
 ---
+
+## Git
+### Commands
+* git merge --no-ff  branchname
+* git cherry-pick --abort
+* git gc
+
+
+git tag
+* git tag -l "*1.0.20*"
+
+Delete tag
+* git tag -d <tag>
+* git push origin :refs/tags/<tag>
+
+Tag refresh
+* git fetch --tags
+
+Tag create and then push using
+* git tag 
+* git push origin refdata_1.0.22
+
+* git revert --edit eb34beb90157c6f25c7aa44406d9f2abb29fc23f
+
+
+* git add --patch <filename>
+* git add .
+* git log --pretty=oneline
+
+
