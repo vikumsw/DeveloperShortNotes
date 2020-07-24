@@ -65,6 +65,7 @@ Tag create and then push using
 
 ## SQLPLUS
 * sqlplus username/password@connect_identifier
+* select <col1>,<col2> from <table>;
 
 ## GREP
 * grep <options>  <pattern> <file or directory>
