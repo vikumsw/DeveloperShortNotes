@@ -63,4 +63,5 @@ Tag create and then push using
 * git add .
 * git log --pretty=oneline
 
-
+## SQLPLUS
+* sqlplus username/password@connect_identifier
