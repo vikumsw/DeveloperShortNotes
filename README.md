@@ -65,3 +65,11 @@ Tag create and then push using
 
 ## SQLPLUS
 * sqlplus username/password@connect_identifier
+
+## GREP
+* grep <options>  <pattern> <file or directory>
+* grep -r  "ROUTING_SEQ" ./src/MainFrm.cpp
+
+#Get surrounding lines
+* grep -r -c 10 "ROUTING_SEQ" ./src/MainFrm.cpp
+
