@@ -14,8 +14,15 @@ Links :
 ---
 
 ## GDB
+* [Cheat Sheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 ### Commands
-* gdb myprog core-myprog-10744-14748642800
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+* Start GDB (with optional core dump).gdb myprog core-myprog-10744-14748642800
 * bt
 * gdb myprog
 * r arg1 arg2
@@ -66,10 +73,11 @@ Tag create and then push using
 ## GREP
 * grep <options>  <pattern> <file or directory>
 * grep -r  "ROUTING_SEQ" ./src/MainFrm.cpp
-
-#Get surrounding lines
+Get surrounding lines
 * grep -r -c 10 "ROUTING_SEQ" ./src/MainFrm.cpp
 
 ---
 
+## Linux File Search
+* find ./ -iname "testFilename*"
 
