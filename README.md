@@ -14,13 +14,16 @@ Links :
 ---
 
 ## GDB
-* [Cheat Sheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
-### Commands
+* [Cheat Sheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)  
+
+### Commands  
+
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
 | col 2 is |    centered   |   $12 |
 | col 3 is | right-aligned |    $1 |
+
 
 * Start GDB (with optional core dump).gdb myprog core-myprog-10744-14748642800
 * bt
